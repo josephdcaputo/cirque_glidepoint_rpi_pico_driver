@@ -1,0 +1,22 @@
+{
+  "env": {
+    "PICO_SDK_PATH": "/home/jdcaputo/.local/pico-sdk"
+  },
+  "configurations": [
+    {
+      "name": "Linux",
+      "intelliSenseMode": "linux-gcc-arm",
+      "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+      "includePath": [
+        "${workspaceFolder}",
+        "${env:PICO_SDK_PATH}",
+        "/usr/lib/gcc/arm-none-eabi/**"
+      ],
+      "defines": [],
+      "cStandard": "gnu11",
+      "cppStandard": "gnu++17",
+      "configurationProvider" : "ms-vscode.cmake-tools"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,19 @@
+{
+  "cmake.configureOnOpen": false,
+  "cmake.buildBeforeRun": true,
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "cmake.statusbar.advanced": {
+    "debug": {
+      "visibility": "visible"
+    },
+    "launch": {
+      "visibility": "hidden"
+    },
+    "build": {
+      "visibility": "visible"
+    },
+    "buildTarget": {
+      "visibility": "visible"
+    }
+  }
+}

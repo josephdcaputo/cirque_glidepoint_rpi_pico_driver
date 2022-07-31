@@ -1,0 +1,24 @@
+---
+Language: Cpp
+
+AllowShortEnumsOnASingleLine: false
+AlignAfterOpenBracket: Align
+AlignConsecutiveMacros: true
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignOperands: true
+
+PointerAlignment: Left
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterEnum: true
+  AfterStruct: true
+  AfterFunction: true
+  AfterControlStatement: Always
+  AfterFunction: true
+
+IndentCaseBlocks: true
+IndentCaseLabels: true
+# InsertTrailingCommas: Wrapped
+BreakBeforeBraces: Custom
